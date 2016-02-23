@@ -1,0 +1,257 @@
+CSS命名规则
+
+　　头：header
+　　内容：content/containe
+　　尾：footer
+　　导航：nav
+　　侧栏：sidebar
+　　栏目：column
+　　页面外围控制整体布局宽度：wrapper
+　　左右中：left right center
+　　登录条：loginbar
+　　标志：logo
+　　广告：banner
+　　页面主体：main
+　　热点：hot
+　　新闻：news
+　　下载：download
+　　子导航：subnav
+　　菜单：menu
+　　子菜单：submenu
+　　搜索：search
+　　友情链接：friendlink
+　　页脚：footer
+　　版权：copyright
+　　滚动：scroll
+　　标签页：tab
+　　文章列表：list
+　　提示信息：msg
+　　小技巧：tips
+　　栏目标题：title
+　　加入：joinus
+　　指南：guild
+　　服务：service
+　　注册：regsiter
+　　状态：status
+　　投票：vote
+　　合作伙伴：partner
+
+
+XHTML文件中id的命名
+(1)页面结构
+　　容器: container
+　　页头：header
+　　内容：content/container
+　　页面主体：main
+　　页尾：footer
+　　导航：nav
+　　侧栏：sidebar
+　　栏目：column
+　　页面外围控制整体布局宽度：wrapper
+　　左右中：left right center
+(2)导航
+　　导航：nav
+　　主导航：mainbav
+　　子导航：subnav
+　　顶导航：topnav
+　　边导航：sidebar
+　　左导航：leftsidebar
+　　右导航：rightsidebar
+　　菜单：menu
+　　子菜单：submenu
+　　标题: title
+　　摘要: summary
+(3)功能
+　　标志：logo
+　　广告：banner
+　　登陆：login
+　　登录条：loginbar
+　　注册：regsiter
+　　搜索：search
+　　功能区：shop
+　　标题：title
+　　加入：joinus
+　　状态：status
+　　按钮：btn
+　　滚动：scroll
+　　标签页：tab
+　　文章列表：list
+　　提示信息：msg
+　　当前的: current
+　　小技巧：tips
+　　图标: icon
+　　注释：note
+　　指南：guild
+　　服务：service
+　　热点：hot
+　　新闻：news
+　　下载：download
+　　投票：vote
+　　合作伙伴：partner
+　　友情链接：link
+　　版权：copyright
+
+1.CSS ID 的命名
+外　套：　　wrap
+主导航：　　mainnav
+子导航：　　subnav
+页　脚：　　footet
+整个页面：　content
+页　眉：　　header
+页　脚：　　footer
+商　标：　　label
+标　题：　　title
+主导航：　　nav（mainnav/globalnav）
+顶导航：　　topnav
+边导航：　　sidebar
+左导航：　　leftsidebar
+右导航：　　rightsidebar
+当前位置：　loc
+旗　志：　　logo
+标　语：　　banner
+菜单内容1： menu1 content
+菜单容量：　menu container
+子菜单：　　submenu
+边导航图标：sidebarIcon
+注释：　　　note
+面包屑：　　breadcrumb(即页面所处位置导航提示）
+容器：　　　container
+内容：　　　content
+搜索：　　　search
+登陆：　　　Login
+功能区：　　shop(如购物车，收银台)
+当前的　　　current
+网站公用相关
+Container div #container 容器
+Header or banner div #header 页头部分
+Main or global navigation div #main-nav 主导航
+Menu #menu 菜单
+Sub Menu #submenu 子菜单
+Left or right side columns #sidebar-a, #sidebar-b 左边栏或右边栏
+Main div #main 页面主体
+Content div #content 内容部分
+The main content area #content-main 主要内容区域
+Footer div #footer 页脚部分
+Tag #tag 标签
+Message #msg #message 提示信息
+Tips #tips 小技巧
+Vote #vote 投票
+Friend Link #friendlink 友情连接
+Title #title 标题
+Summary #summary 摘要
+Sub-navigation list #sub-nav 二级导航
+Search input #search-input 搜索输入框
+Search output #search-output 搜索输出和搜索结果相似
+Search #search 搜索
+Search results #search-results 搜索结果
+Copyright information #copyright 版权信息
+brand #branding 商标
+branding-logo #branding-logo LOGO
+Site information #siteinfo 网站信息
+Copyright information etc. #siteinfo-legal 法律声明
+Designer or other credits #siteinfo-credits 信誉
+Join us #joinus 加入我们
+Partnership opportunities #partner 合作伙伴
+Services #service 服务
+Regsiter #regsiter 注册
+Status #status 状态
+电子贸易相关
+Products .products 产品
+Products prices .products-prices 产品价格
+Products description .products-description 产品描述
+Products review .products-review 产品评论
+Editor's review .editor-review 编辑评论
+New release .news-release 最新产品
+Publisher .publisher 生产商
+Screen shot .screenshot 缩略图
+FAQ .faqs 常见问题
+Keyword .keyword 关键词
+Blog .blog 博客
+Forum .forum 论坛
+2.另外在编辑样式表时可用的注释可这样写：
+<-- Footer -->
+内容区
+<-- End Footer -->
+3.样式文件命名
+主要的 master.css
+布局，版面 layout.css
+专栏 columns.css
+文字 font.css
+打印样式 print.css
+主题 themes.css
+
+如<area shape="rect" coords="703,3,750,26" href="#top"> 
+
+HTML <area> 标签
+
+定义和用法
+
+定义图像地图中的某个区域。
+
+HTML与XHTML之前的差异
+
+在HTML中，<area>没有结束标签。
+
+在XHTML中，<area>必须被正确地关闭。
+
+提示和注释：
+
+此元素永远被嵌套在<map>标签内部。
+
+注释：<img>中的usemap属性可引用<map>中的id或name属性（由浏览器决定），所以我们需要同时向<map>添加id和name两个属性。
+
+必需的属性
+
+DTD指示此属性允许在哪种DTD中使用。S=Strict, T=Transitional, and F=Frameset. 属性 值 描述 DTD 
+alt text 定义此区域的替换文本 STF 
+
+
+可选的属性
+
+属性 值 描述 DTD 
+coords 如果shape="rect" 那么 coords="left,top,right,bottom" 
+如果shape="circ" 那么 coords="centerx,centery,radius" 
+如果shape="poly" 那么 coords="x1,y1,x2,y2,..,xn,yn" 
+ Specifies the coordinates for the clickable area STF 
+href URL 定义此区域的目标URL STF 
+nohref true 
+false 
+ 从图像地图排除某个区域 STF 
+shape rect 
+rectangle 
+circ 
+circle 
+poly 
+polygon 
+ 定义区域的形状 STF 
+target  _blank 
+_parent 
+_self 
+_top 
+ 
+在何处打开目标URL. 
+
+_blank - 目标URL会在新窗口打开 
+_self - 当其被点击时，目标URL会在同一框架中打开 
+_parent - 目标URL会在父框架中打开 
+_top - 目标URL会在整个的窗口中打开 
+ TF 
+
+
+标准属性
+
+id, class, title, style, dir, lang, xml:lang, tabindex, accesskey
+
+如需完整的描述，请访问标准属性。
+
+事件属性
+
+onclick, ondblclick, onmousedown, onmouseup, onmouseover, onmousemove, onmouseout, onkeypress, onkeydown, onkeyup, onfocus, onblur 
+
+如需完整的描述，请访问事件属性。
+
+
+创建图像地图 
+本例显示如何创建带有可供点击区域的图像地图。其中的每个区域都是一个超级链接。 
+
+我按照他上面的意思：如果shape="rect" 那么 coords="left,top,right,bottom" 就一位是距离她所在位置的左上右下四边的距离，结果试了半天也没搞出来，最后还是给弄明白了，他所指的这四个距离，比如左右两边，他是以一边为基准的，就好比我们有个大区域，而我们要在这个大区域里用到AREA，那么他要表示的左右两边距离是以大区域的左边为基准的，小区域的左边距大区域的左边距离有多少，就表示left，小区域的右边距大区域的左边距离有多少，就表示right，那么上下呢，就是以大区域的上边为基准，小区域的上边距大区域的上边距离有多少，就表示top，小区域的下边距大区域的上边距离有多少，就表示bottom。
